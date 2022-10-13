@@ -1,12 +1,12 @@
 // console.log("hello world");
 
-let animal = 'RAT!';
+var animal = 'RAT!';
 
 console.log(animal);
 
-var number1 = 5;
+const number1 = 5;
 
-var number2 = 10;
+const number2 = 10;
 
 function mathIntro(number1, number2){
     console.log("I have two numbers " + number1 + " and " + number2 + ". Lets do some math with these numbers!")
@@ -45,3 +45,13 @@ addition(3, 4);
 subtraction(15, 12);
 multiplication(2, 3);
 division(20, 4);
+
+document.write("<h1>This is a JavaScript Demo</h1>");
+document.write("<h3>This was created with JS not HTML</h3>");
+
+
+alert("This entire application was created with JavaScript!")
+alert("This is called an alert");
+alert("Are you tired of these alerts yet?");
+prompt("Do you like alerts?");
+prompt("Tell me why?");
